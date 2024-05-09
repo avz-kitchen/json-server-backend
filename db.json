@@ -1,33 +1,40 @@
 {
-  "projects": [
+  "Cats": [
     {
       "id": 1,
-      "title": "Module 2 Project",
-      "description": "Module 2 project - Integrate a React app with backend.",
-      "userId": 1
+      "name": "Paulchen",
+      "description": "Cuddly bear",
+      "chonklevel" : "3",
+      "color" : "Black",
+      "fave-snack" :["Chicken", "Lamb"]
     },
     {
-      "id": 2,
-      "title": "Module 3 Project",
-      "description": "Create a full-stack application using MERN stack.",
-      "userId": 1
+      "id": 1,
+      "name": "Bejinha",
+      "description": "Cuddly bear",
+      "chonklevel" : "1",
+      "color" :[ "Orange","black","white"],
+      "fave-snack" :["Chicken", "Lamb"]
     }
+
   ],
-  "tasks": [
+  "Cooks": [
     {
       "id": 1,
-      "projectId": 1,
-      "description": "Use Vite to create a basic React app"
+      "name": "Paulchen",
+      "description": "Cuddly bear",
+      "chonklevel" : "3",
+      "color" : "Black",
+      "fave-snack" :["Chicken", "Lamb"]
     },
     {
-      "id": 2,
-      "projectId": 1,
-      "description": "Install React Router and setup routes"
-    },
-    {
-      "id": 3,
-      "projectId": 2,
-      "description": "Create a form with 5 input fields"
+      "id": 1,
+      "name": "Bejinha",
+      "description": "Cuddly bear",
+      "chonklevel" : "1",
+      "color" :[ "Orange","black","white"],
+      "fave-snack" :["Chicken", "Lamb"]
     }
+
   ]
 }
